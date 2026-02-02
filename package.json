@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "AI-powered WebSocket setup - Socket.io configuration with GPT",
   "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
   "bin": {
     "ai-socket": "dist/cli.js"
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc"
   },
@@ -28,7 +33,27 @@
     "backend",
     "streaming"
   ],
+  "author": "LXGIC Studios",
   "license": "MIT",
+  "homepage": "https://github.com/LXGIC-Studios/ai-socket#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LXGIC-Studios/ai-socket"
+  },
+  "bugs": {
+    "url": "https://github.com/LXGIC-Studios/ai-socket/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/LXGIC-Studios"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "dependencies": {
     "commander": "^12.1.0",
     "openai": "^4.73.0",
@@ -37,10 +62,5 @@
   "devDependencies": {
     "typescript": "^5.6.0",
     "@types/node": "^22.0.0"
-  },
-  "author": "LXGIC Studios",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/LXGIC-Studios/ai-socket"
   }
 }
