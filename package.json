@@ -38,7 +38,7 @@
   "homepage": "https://github.com/LXGIC-Studios/ai-socket#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LXGIC-Studios/ai-socket"
+    "url": "git+https://github.com/LXGIC-Studios/ai-socket.git"
   },
   "bugs": {
     "url": "https://github.com/LXGIC-Studios/ai-socket/issues"
