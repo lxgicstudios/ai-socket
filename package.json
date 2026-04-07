@@ -1,5 +1,5 @@
 {
-  "name": "ai-socket",
+  "name": "@lxgicstudios/ai-socket",
   "version": "1.0.0",
   "description": "AI-powered WebSocket setup - Socket.io configuration with GPT",
   "main": "dist/index.js",
